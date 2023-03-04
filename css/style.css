@@ -1,0 +1,41 @@
+.bg-gray{
+    background-color: rgb(37,43,47);
+}
+.bg-nav{
+    background-color: rgb(58,73,123);
+}
+body{
+    font-family: 'Nerko One', cursive;
+}
+.bg-graySub{
+    background-color: rgb(54,55,57);
+}
+.text-gray{
+    color: rgb(120, 123, 129);
+}
+.col-hover{
+   
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform ,5s;
+}
+.col-hover:hover{
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+}
+.btn-hover:hover{
+    background-color: rgb(246,187,9);
+}
+nav{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    
+}
+    
